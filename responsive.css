@@ -1,0 +1,18 @@
+@media (max-width:576px) {
+    .heroContent{
+        width: 300px !important;
+    
+    }
+    .heroContent h1{
+        font-size: 35px !important;
+    }
+    .finalContainer{
+        width: 60%;
+    }
+    .borders{
+        border: none;
+    }
+    body{
+        padding: 20px;
+    }
+}

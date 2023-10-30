@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Kaushan+Script&family=Merienda&family=Nunito:wght@200;300;400;500;600&family=Sedgwick+Ave+Display&family=VT323&display=swap');
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    outline: none;text-decoration: none;
+    text-transform: capitalize;
+    /* border: 2px solid red; */
+}
+:root{
+    --main-color:#be9c79;
+    --black:#333;
+    --white:#fff;
+    --light-color:#666;
+    --border:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    
+}
+.btn{
+    background-color: #be9c79 !important;
+    color: #fff !important;
+}
+h1{
+    font-family: 'Merienda', cursive;
+}
+.nav-item a:hover{
+    color: #be9c79 !important;
+    border-bottom: 1px solid #be9c79 !important;
+}.btn:hover{
+    background-color: #333 !important;
+    
+}
+h3{
+    font-family: 'Merienda', cursive; 
+   
+}
+.gallery-logo{
+    transition: 1s;
+}
+
+.gallery-imgs{
+    overflow: hidden;
+}
+.gallery-logo img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.borders{
+    border-bottom: 2px solid black;
+}
